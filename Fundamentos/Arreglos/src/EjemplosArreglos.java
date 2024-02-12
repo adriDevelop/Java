@@ -36,5 +36,10 @@ public class EjemplosArreglos {
         for (int a: numeros){
             System.out.println("num  = " + a);
         }
+
+        // Ahora vamos a recorrer el array de forma inversa.
+        for (int i = numeros.length - 1; i >= 0; i--){
+            System.out.println("valor para el inidice " + i +" = " + numeros[i]);
+        }
     }
 }
