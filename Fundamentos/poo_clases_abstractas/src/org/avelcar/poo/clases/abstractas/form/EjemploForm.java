@@ -36,7 +36,7 @@ public class EjemploForm {
         lenguaje.addOpcion(new Opcion("4","TypeScript"));
         lenguaje.addOpcion(new Opcion("5","PHP"));
 
-        username.setValor("");
+        username.setValor("adrian");
         password.setValor("a1b2c");
         email.setValor("velascoad@gmail.com");
         edad.setValor("23");
