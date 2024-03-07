@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
-public class ClienteListRepositorio implements CrudRepositorio, OrdenableRepositorio, PaginableRepositorio{
+public class ClienteListRepositorio implements CrudRepositorio<Cliente>, OrdenableRepositorio<Cliente>, PaginableRepositorio<Cliente>{
 
     private List<Cliente> dataSource;
 

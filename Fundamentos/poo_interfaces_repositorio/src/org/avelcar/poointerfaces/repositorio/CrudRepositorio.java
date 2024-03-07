@@ -4,12 +4,12 @@ import org.avelcar.poointerfaces.modelo.Cliente;
 
 import java.util.List;
 
-public interface  CrudRepositorio {
+public interface CrudRepositorio <T>{
 
-    List<Cliente> listar();
-    Cliente buscarId(Integer id);
-    void crearCliente(Cliente cliente);
-    void editarCliente(Cliente cliente);
+    List<T> listar();
+    T buscarId(Integer id);
+    void crearCliente(T cliente);
+    void editarCliente(T cliente);
     void eliminarCliente(Integer id);
 
 }
