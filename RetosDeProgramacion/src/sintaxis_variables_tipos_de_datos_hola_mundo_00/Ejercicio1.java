@@ -1,4 +1,4 @@
-package Sintaxis_Variables_Tipos_De_Datos_Hola_Mundo_00;
+package sintaxis_variables_tipos_de_datos_hola_mundo_00;
 
 // Ejercicio 1.- Crea un comentario en el código y coloca la URL del sitio web oficial del lenguaje seleccionado.
 // https://docs.oracle.com/javase/tutorial/index.html

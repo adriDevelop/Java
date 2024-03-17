@@ -1,4 +1,4 @@
-package OperadoresYEstructurasDeControl;
+package operadores_y_estructuras_de_control_01;
 
 public class Ejercicio2 {
     public static void main(String[] args) {
