@@ -43,7 +43,7 @@ public class Agenda {
     // Actualizar el contacto seleccionado.
     public String actualizaContacto(Contacto contacto){
         for (Contacto con: this.contactos){
-            if (this.devuelveBusqueda(contacto.getNombre()) != null){
+            if (this.devuelveBusqueda(contacto.getNombre()) != null && con.getNombre().equals(contacto.getNombre())){
                  con.setNombre(contacto.getNombre());
                  con.setApellidos(contacto.getApellidos());
                  con.setNumTelefono(contacto.getNumTelefono());

@@ -67,7 +67,7 @@ public class Ejercicio4 {
                     System.out.println("Introduzca el numero:");
                     String numeroActualizado = sc.next();
                     Contacto contactoActualizado = new Contacto(nombreActualizado, apellidosActualizado, numeroActualizado);
-                    ag1.actualizaContacto(contactoActualizado);
+                    System.out.println(ag1.actualizaContacto(contactoActualizado));
                     break;
                 case 3:
                     System.out.println("========== ELIMINAR CONTACTO ============");
